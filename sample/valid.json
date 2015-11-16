@@ -1,0 +1,12 @@
+{
+  "description": "Get recent page views.",
+  "from": "2015-10-01",
+  "to": "2015-10-31",
+  "metrics": "ga:pageviews",
+  "params": {
+    "max-results": 200,
+    "dimensions": "ga:pagePath",
+    "filters": "ga:dimension1==post",
+    "sort": "-ga:pageviews"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "tarosky/google-api-glob",
+  "description": "A WordPress plugin to glob Google Analytics data",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "fumikito",
+      "email": "ftakahashi@tarosky.co.jp"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "hametuha/gapiwp": "1.x"
+  },
+  "autoload": {
+    "psr-0": {
+      "Tarosky\\GoogleApiGlob": "src/"
+    }
+  }
+}

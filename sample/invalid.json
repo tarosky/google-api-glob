@@ -1,0 +1,9 @@
+{
+  "description": "Invalid JSON.",
+  "params": {
+    "max-results": 200,
+    "dimensions": "ga:pagePath",
+    "filters": "ga:dimension1==post",
+    "sort": "-ga:pageviews"
+  }
+}
